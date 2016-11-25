@@ -1682,7 +1682,10 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffcdb1;
+  background: #8e30c9;
+}
+.links-of-author-item {
+  text-align: center;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2174,6 +2177,29 @@ a.search-result {
   left: 44%;
   top: 42%;
   color: #ccc;
+}
+#local-search-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 97%;
+  font-size: 18px;
+}
+.popup .fa-search {
+  padding: 8px 0;
+}
+.search-keyword {
+  border-bottom: 1px dashed #f00;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f00;
+}
+p.search-result {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0 2px 0;
+}
+#local-search-result {
+  height: 88%;
+  overflow: auto;
 }
 .busuanzi-count:before {
   content: " ";
